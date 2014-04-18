@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    self.users = [[NSArray alloc] initWithArray:[UserData users]];
+    self.users = [UserData users];
     NSLog(@"%@", self.users);
     
 }
